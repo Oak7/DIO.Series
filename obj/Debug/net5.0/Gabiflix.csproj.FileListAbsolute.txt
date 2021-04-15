@@ -1,0 +1,16 @@
+/home/gabi/Desktop/Gabiflix/bin/Debug/net5.0/Gabiflix
+/home/gabi/Desktop/Gabiflix/bin/Debug/net5.0/Gabiflix.deps.json
+/home/gabi/Desktop/Gabiflix/bin/Debug/net5.0/Gabiflix.runtimeconfig.json
+/home/gabi/Desktop/Gabiflix/bin/Debug/net5.0/Gabiflix.runtimeconfig.dev.json
+/home/gabi/Desktop/Gabiflix/bin/Debug/net5.0/Gabiflix.dll
+/home/gabi/Desktop/Gabiflix/bin/Debug/net5.0/ref/Gabiflix.dll
+/home/gabi/Desktop/Gabiflix/bin/Debug/net5.0/Gabiflix.pdb
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/Gabiflix.csprojAssemblyReference.cache
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/Gabiflix.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/Gabiflix.AssemblyInfoInputs.cache
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/Gabiflix.AssemblyInfo.cs
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/Gabiflix.csproj.CoreCompileInputs.cache
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/Gabiflix.dll
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/ref/Gabiflix.dll
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/Gabiflix.pdb
+/home/gabi/Desktop/Gabiflix/obj/Debug/net5.0/Gabiflix.genruntimeconfig.cache
