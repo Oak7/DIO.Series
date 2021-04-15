@@ -1,6 +1,6 @@
 namespace Gabiflix.Classes
 {
-    public class teste
+    public class EntidadeBase
     {
         
     }
