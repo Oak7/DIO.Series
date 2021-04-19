@@ -1,3 +1,4 @@
+using System;
 namespace Gabiflix
 {
     public class Serie : EntidadeBase
@@ -17,10 +18,24 @@ namespace Gabiflix
             this.Ano = Ano;
         }
 
-        //public override string ToString()
-       // {
-
-       // }
+        public override string ToString()
+        {
+            string retorno = "";
+            retorno += "Gênero" + this.Genero + Environment.NewLine;
+            retorno += "Título" + this.Titulo + Environment.NewLine;
+            retorno += "Descrição" + this.Descricao + Environment.NewLine;
+            retorno += "Ano de início" + this.Ano;
+            return retorno;
+        }
+        public string retornaTitulo()
+        {
+            return this.Titulo;
+        }
+        public int retornaId()
+        {
+            return this.Id;
+            //para retornar a listagem das séries
+        }
         
     }
 }
