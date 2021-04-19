@@ -1,7 +1,8 @@
-namespace Gabiflix.Classes
+namespace Gabiflix
 {
-    public class EntidadeBase
+    public abstract class EntidadeBase
     {
+        public int Id {get;protected set;}
         
     }
 }

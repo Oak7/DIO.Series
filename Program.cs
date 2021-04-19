@@ -6,7 +6,7 @@ namespace Gabiflix
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Serie meuObjeto = new Serie();
         }
     }
 }
