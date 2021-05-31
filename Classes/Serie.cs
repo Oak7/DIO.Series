@@ -8,6 +8,7 @@ namespace Gabiflix
         private string Titulo {get; set;}
         private string Descricao {get; set;}
         private int Ano {get; set;}
+        private bool Excluido {get; set;}
 
         //métodos
         public Serie (int id, Genero genero, string Titulo, string Descricao, int Ano){
@@ -16,6 +17,7 @@ namespace Gabiflix
             this.Titulo = Titulo;
             this.Descricao = Descricao;
             this.Ano = Ano;
+            this.Excluido = false;
         }
 
         public override string ToString()
@@ -24,7 +26,8 @@ namespace Gabiflix
             retorno += "Gênero" + this.Genero + Environment.NewLine;
             retorno += "Título" + this.Titulo + Environment.NewLine;
             retorno += "Descrição" + this.Descricao + Environment.NewLine;
-            retorno += "Ano de início" + this.Ano;
+            retorno += "Ano de início" + this.Ano + Environment.NewLine;
+            retorno += "Excluido: " + this.Excluido;
             return retorno;
         }
         public string retornaTitulo()
@@ -35,6 +38,13 @@ namespace Gabiflix
         {
             return this.Id;
             //para retornar a listagem das séries
+        }
+        public bool retornaExcluido()
+		{
+			return this.Excluido;
+		}
+        public void Excluir(){
+            this.Excluido =true;
         }
         
     }
