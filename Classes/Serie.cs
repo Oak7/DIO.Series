@@ -23,10 +23,10 @@ namespace Gabiflix
         public override string ToString()
         {
             string retorno = "";
-            retorno += "Gênero" + this.Genero + Environment.NewLine;
-            retorno += "Título" + this.Titulo + Environment.NewLine;
-            retorno += "Descrição" + this.Descricao + Environment.NewLine;
-            retorno += "Ano de início" + this.Ano + Environment.NewLine;
+            retorno += "Gênero: " + this.Genero + Environment.NewLine;
+            retorno += "Título: " + this.Titulo + Environment.NewLine;
+            retorno += "Descrição: " + this.Descricao + Environment.NewLine;
+            retorno += "Ano de início: " + this.Ano + Environment.NewLine;
             retorno += "Excluido: " + this.Excluido;
             return retorno;
         }
