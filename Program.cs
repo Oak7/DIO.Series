@@ -4,7 +4,7 @@ namespace Gabiflix
 {
     class Program
     {
-        {
+        
         static SerieRepositorio repositorio = new SerieRepositorio();
         static void Main(string[] args)
         {
@@ -85,9 +85,9 @@ namespace Gabiflix
 
 			Serie atualizaSerie = new Serie(id: indiceSerie,
 										genero: (Genero)entradaGenero,
-										titulo: entradaTitulo,
-										ano: entradaAno,
-										descricao: entradaDescricao);
+										Titulo: entradaTitulo,
+										Ano: entradaAno,
+										Descricao: entradaDescricao);
 
 			repositorio.Atualiza(indiceSerie, atualizaSerie);
 		}
@@ -135,9 +135,9 @@ namespace Gabiflix
 
 			Serie novaSerie = new Serie(id: repositorio.ProximoId(),
 										genero: (Genero)entradaGenero,
-										titulo: entradaTitulo,
-										ano: entradaAno,
-										descricao: entradaDescricao);
+										Titulo: entradaTitulo,
+										Ano: entradaAno,
+										Descricao: entradaDescricao);
 
 			repositorio.Insere(novaSerie);
 		}

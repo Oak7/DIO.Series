@@ -9,7 +9,7 @@ namespace Gabiflix.Interfaces
       List<T> Lista();
       T RetornaPorId(int Id);
       void Insere(T entidade);
-      void Excluir(int Id);
+      void Exclui(int Id);
       void Atualiza(int Id, T entidade);
       int ProximoId();
 

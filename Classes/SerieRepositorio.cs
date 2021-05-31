@@ -7,38 +7,40 @@ namespace Gabiflix
     public class SerieRepositorio : IRepositorio<Serie>
     /*a classe SerieRepositorio está implementando um IRepositorio de série*/
     {
+        /*criando uma lista dentro do repositório*/
+        private List<Serie> listaSerie = new List<Serie>();
+
+        
         /*Tem que implementar os métodos da interface*/
         public void Atualiza(int Id, Serie objeto)
         {
-            ListaSerie[Id] = objeto;
+            listaSerie[Id] = objeto;
         }
 
-        public void Excluir(int Id)
+        public void Exclui(int Id)
         {
-            ListaSerie[Id].Excluir();
+            listaSerie[Id].Excluir();
         }
 
         public void Insere(Serie objeto)
         {
-            ListaSerie.Add(objeto);
+            listaSerie.Add(objeto);
         }
 
         public List<Serie> Lista()
         {
-            return ListaSerie;
+            return listaSerie;
         }
 
         public int ProximoId()
         {
-            return ListaSerie.Count;
+            return listaSerie.Count;
         }
 
         public Serie RetornaPorId(int Id)
         {
-            return ListaSerie[Id];
+            return listaSerie[Id];
         }
-        /*criando uma lista dentro do repositório*/
-        private List<Serie> ListaSerie = new List<Serie>();
-
+        
     }
 }
